@@ -1,0 +1,6 @@
+{
+  "name": "Smart Dispenser",
+  "description": "An IoT-powered Smart Medicine Dispenser manager featuring slot scheduling, real-time tracking, compliance logging, and AI prescription scanning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
