@@ -35,39 +35,7 @@ Tailored experiences for three distinct user types:
 *   **State Management:** Kotlin Coroutines & Flow
 *   **Storage:** Simulated IoT registry and persistence.
 
-## 📦 Getting Started
 
-### Prerequisites
-*   Android Studio (Latest Version)
-*   Gemini API Key (Obtainable from [Google AI Studio](https://aistudio.google.com/))
-
-### Installation & Setup
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/your-username/smart-medicine-dispenser.git
-    ```
-
-2.  **Configure Environment Variables:**
-    *   Create a file named `.env` in the project root directory.
-    *   Add your Gemini API Key:
-        ```env
-        GEMINI_API_KEY=your_actual_api_key_here
-        ```
-    *   Refer to `.env.example` for the format.
-
-3.  **Build the Project:**
-    *   Open the project in Android Studio.
-    *   Sync Gradle and build the `:app` module.
-    *   *Note: The project uses the default Android debug keystore. Ensure `signingConfig` for `debugConfig` is not forcing a non-existent local file.*
-
-4.  **Run the App:**
-    *   Deploy to a physical device or emulator.
-    *   Use the "Role Switcher" at the top to toggle between Patient, Doctor, and Family views.
-
-## 📸 Screenshots
-
-*(Add screenshots here showing Dashboard, AI Scanner, and Doctor Portal)*
 
 ## 🛡️ Security & Privacy
 *   Sensitive API keys are managed via the `Secrets Gradle Plugin` and should never be committed to version control.
